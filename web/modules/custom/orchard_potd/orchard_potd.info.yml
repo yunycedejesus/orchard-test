@@ -1,0 +1,4 @@
+name: Orchard Product of the Day
+type: module
+core_version_requirement: ^10
+configure: orchard_potd.settings.overview

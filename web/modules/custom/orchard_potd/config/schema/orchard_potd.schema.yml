@@ -1,0 +1,10 @@
+orchard_potd.settings:
+  type: config_object
+  label: 'Orchard POTD settings'
+  mapping:
+    block_title:
+      type: string
+      label: 'Product of the day'
+    email:
+      type: email
+      label: 'orchard.au@gmail.com'   

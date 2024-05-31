@@ -1,0 +1,4 @@
+orchard_potd:
+  css:
+    theme:
+      css/orchard-potd.css: {}

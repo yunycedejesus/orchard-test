@@ -1,0 +1,15 @@
+orchard_potd.settings.overview:
+  path: '/admin/config/orchard-potd'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Orchard Product of the Day'
+  requirements:
+    _permission: 'administer orchard_potd overview'
+
+orchard_potd.settings:
+  path: '/admin/config/orchard-potd/cbi-settings'
+  defaults:
+    _form: '\Drupal\orchard_potd\Form\SettingsForm'
+    _title: 'Product of the Day settings'
+  requirements:
+    _permission: 'administer overview'

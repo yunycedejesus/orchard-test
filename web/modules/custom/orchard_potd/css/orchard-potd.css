@@ -1,0 +1,23 @@
+.btn-orc {
+  display: inline-block;
+  padding: 16px 24px;
+  border: 2px solid #0047AB;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0047AB;
+}
+.view-id-entity_product_of_the_day.view-display-id-block_1 .field--name-title {
+  display: none;
+}
+.view-id-entity_product_of_the_day.view-display-id-block_1 .field--name-items .node--view-mode-teaser {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.view-id-entity_product_of_the_day.view-display-id-block_1 .field--name-items .node--view-mode-teaser::after {
+  display: none;
+}
+.view-id-entity_product_of_the_day.view-display-id-block_1 .col-image {
+  min-width: 300px;
+}

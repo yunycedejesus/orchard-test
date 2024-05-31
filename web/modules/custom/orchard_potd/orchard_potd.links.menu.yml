@@ -1,0 +1,20 @@
+orchard_potd.settings.overview:
+  title: 'Orchard product of the day'
+  route_name: orchard_potd.settings.overview
+  parent: system.admin_config
+  description: 'Admin settings for Orchard Product of the Day.'
+  weight: -10
+
+orchard_potd.settings:
+  title: 'Orchard product of the day settings admin'
+  route_name: orchard_potd.settings
+  description: 'Manage Orchard Product of the Day specific configurations.'
+  parent: orchard_potd.settings.overview
+  weight: 1
+
+orchard_potd.content_view:
+  title: 'Orchard product of the day contents admin'
+  route_name: view.product_of_the_day.page_1
+  description: 'Admin contents for Orchard Product of the Day.'
+  parent: orchard_potd.settings.overview
+  weight: 2
