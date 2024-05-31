@@ -1,5 +1,5 @@
 # orchard-test
-Orchard Test Activities
+Orchard Test Activities (Drupal 10 CMS)
 
 ## Set up instructions
 ### Prerequisites
